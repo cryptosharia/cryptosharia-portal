@@ -1,20 +1,17 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import ThemeSwitcher from '$lib/components/ThemeSwitcher.svelte';
+	import { SvelteTheme } from 'svelte-themes';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-		rel="stylesheet"
-	/>
-	<title>CryptoSharia Hub</title>
+	<link rel="icon" href="/favicon.ico" />
+	<title>CryptoSharia Portal</title>
 </svelte:head>
 
-{@render children()}
-
+<SvelteTheme enableSystem defaultTheme="system" attribute="class" enableColorScheme>
+	{@render children()}
+	<ThemeSwitcher />
+</SvelteTheme>
