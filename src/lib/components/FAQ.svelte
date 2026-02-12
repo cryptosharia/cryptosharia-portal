@@ -21,7 +21,7 @@ Grup Premium memberikan **pendampingan intensif**, akses materi eksklusif, dan k
 		},
 		{
 			q: 'Apakah memberikan sinyal trading?',
-			a: `Fokus utama kami adalah **edukasi dan manajemen risiko**. Kami tidak memberikan sinyal instan. Di grup Premium, analisis pasar dibahas lebih mendalam namun tetap berbasis edukasi.`
+			a: `Fokus utama kami adalah **edukasi dan manajemen risiko**, namun kami juga membantu memberikan **informasi alpha** untuk memudahkan Anda mendapatkan peluang profit secara terarah. Di grup Premium, analisis pasar dibahas jauh lebih mendalam namun tetap berbasis edukasi dan prinsip syariah.`
 		},
 		{
 			q: 'Apakah bergabung menjamin profit?',
@@ -64,7 +64,7 @@ Grup Premium memberikan **pendampingan intensif**, akses materi eksklusif, dan k
 						></path>
 					</svg>
 				</summary>
-				<div class="whitespace-pre-line px-6 pb-6 text-sm leading-relaxed text-faded">
+				<div class="px-6 pb-6 text-sm leading-relaxed whitespace-pre-line text-faded">
 					{@html faq.a.replace(/\*\*(.*?)\*\*/g, '<strong class="text-foreground">$1</strong>')}
 				</div>
 			</details>
