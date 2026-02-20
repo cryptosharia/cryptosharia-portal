@@ -30,7 +30,7 @@
 		/>
 
 		<HubLink
-			href="https://discord.gg/EdSHFXrv"
+			href="https://discord.gg/raBFJtB4ja"
 			title="Grup Discord Gratis"
 			description="Riset mendalam & library edukasi."
 			icon="👾"
