@@ -14,16 +14,8 @@
 
 	<div class="space-y-4">
 		<HubLink
-			href="https://fassethelpsupport.zendesk.com/hc/en-us/articles/55154078509849-Menangkan-THR-Jutaan-Rupiah-Ikuti-Kompetisi-Investasi-Ramadan-Spesial-dari-Fasset-x-Crypto-Sharia"
-			title="Ikuti Kompetisi Investasi Ramadan"
-			description="Menangkan THR jutaan rupiah bersama Fasset x CryptoSharia!"
-			icon="🏆"
-			type="default"
-		/>
-
-		<HubLink
 			href="https://chat.whatsapp.com/EkyYn2gmXVN7tspbMvz6fx"
-			title="Grup WA Komunitas"
+			title="Grup WA Komunitas Gratis"
 			description="Diskusi harian & update pasar gratis."
 			icon="💬"
 			type="wa"
@@ -41,8 +33,8 @@
 			href="https://wa.me/6282186584279?text={encodeURIComponent(
 				"Assalamu'alaikum min, mau nanya terkait ..."
 			)}"
-			title="Whatsapp Admin"
-			description="Bantuan & pertanyaan umum."
+			title="Join Member Premium"
+			description="Hubungi admin CryptoSharia segera"
 			icon="👨‍💻"
 			type="admin"
 		/>
