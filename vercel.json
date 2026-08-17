@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://www.cryptosharia.id/komunitas",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.cryptosharia.id/komunitas",
+      "permanent": true
+    }
+  ]
+}
